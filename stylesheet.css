@@ -1,0 +1,96 @@
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Body
+    2. Header / #header
+        2.1. Background / .bg
+        2.2  Welcome Text / .welcomeText
+        2.3. Welcome Message / .welcomeMessage
+        2.4. Name Colorization / .name
+    3. About / #content
+        3.1. Title & Text / .aboutTitle
+        3.2. Row & Columns / .container_fluid
+    4. Portfolio / #content
+        3.1. Title & Text / .portfolioTitle
+        3.2. General Padding / .projects
+        3.3. Project Cards / .filterDiv
+    5. Contact Form / #contactForm
+        3.1. Title & Text / 
+        3.2. General Padding / 
+    6. Footer / #footer
+-------------------------------------------------------------------*/
+.bg {
+    background-image: url("Images/images/Dark-Minimal-Wallpaper-83+-images-.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.welcomeText {
+    text-align: center;
+    padding-top: 20%;
+    z-index: 1;
+}
+
+.welcomeMessage {
+    color: white;
+}
+
+.name {
+    color: rgb(141, 17, 172);
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+.aboutTitle {
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+    padding-bottom: 50px;
+}
+
+.about_description {
+    padding-bottom: 50px;
+}
+
+
+#about {
+    margin: 100px;
+    text-align: center;
+}
+
+#portfolio {
+    background-color:#343A40;
+    position: relative;
+    color: white;
+    margin: 100px;
+}
+
+.projects {
+    padding: 10px;
+}
+
+.filterDiv {
+    border-radius: 15 px 50 px;
+    width: 200px;
+    height: 300px;
+    text-align: center;
+    margin: 10px;
+    display: inline-block; /* Hidden by default */
+  }
+
+.card_image_top {
+    height: 100px;
+    width: 100px;
+    display: block;
+}
+
+#contactForm {
+    margin: 100px;
+}
+
+
