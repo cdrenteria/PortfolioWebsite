@@ -76,8 +76,8 @@ body, html {
 
 .filterDiv {
     border-radius: 15 px 50 px;
-    width: 200px;
-    height: 300px;
+    width: 250px;
+    height: 400px;
     text-align: center;
     margin: 10px;
     display: inline-block; /* Hidden by default */
@@ -93,4 +93,8 @@ body, html {
     margin: 100px;
 }
 
-
+.carousel-item {
+    width: auto;
+    height: 1000px;
+    max-height: 1000px;
+}
