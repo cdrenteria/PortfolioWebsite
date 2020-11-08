@@ -20,7 +20,7 @@
     6. Footer / #footer
 -------------------------------------------------------------------*/
 .bg {
-    background-image: url("Images/images/pexels-negative-space-34090\ \(1\).jpg");
+    background-image: url("Images/images/index_bg_comp.jpg");
     height: 100%; 
     background-position: center;
     background-repeat: no-repeat;
@@ -38,7 +38,7 @@
 }
 
 .name {
-    color: #D3A2D9;
+    color: #979CC8;
 }
 
 body, html {
@@ -46,17 +46,20 @@ body, html {
     margin: 0;
   }
   
-.aboutTitle {
-    color: black;
+.sectionTitle {
+    color: #274156;
     text-align: center;
     text-decoration: underline;
     padding-bottom: 50px;
 }
 
 .about_description {
-    padding-bottom: 50px;
+    padding-bottom: 15px;
 }
 
+#lastParagraph {
+    padding-bottom: 40px;
+}
 
 #about {
     margin: 100px;
@@ -68,6 +71,17 @@ body, html {
     position: relative;
     color: #FBFCFF;
     margin: 100px;
+}
+#portfolio:before {
+    content:"";
+    background-color:#274156;
+    position: absolute;
+    height: 100%;
+    width: 184.1vw;
+    left: -100vw;
+    z-index: -1;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .projects {
@@ -93,16 +107,16 @@ body, html {
     margin: 100px;
 }
 
-.carousel-item {
+.carousel-item img {
     width: auto;
-    height: 1000px;
     max-height: 1000px;
 }
 
 .bg-custom {
-    background-color: #274156
-    ;
+    background-color: #274156;
+    outline: none;
 }
+
 
 i {
     color: #274156
@@ -110,4 +124,31 @@ i {
 
 .skillTitle {
     color: #1c6e8c;
+}
+
+#contactForm {
+    background-color:  #274156;
+    color: #FBFCFF;
+}
+
+#contactForm:before {
+    content:"";
+    background-color:#274156;
+    position: absolute;
+    height: 100%;
+    width: 198.7vw;
+    left: -100vw;
+    z-index: -1;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.formSubmit {
+    background-color: #1C6E8C;
+    border: none !important;
+}
+
+.bg-custom-code {
+    background-color: #1C6E8C;
+    outline: none !important;
 }
