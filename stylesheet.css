@@ -20,7 +20,7 @@
     6. Footer / #footer
 -------------------------------------------------------------------*/
 .bg {
-    background-image: url("Images/images/Dark-Minimal-Wallpaper-83+-images-.jpg");
+    background-image: url("Images/images/pexels-negative-space-34090\ \(1\).jpg");
     height: 100%; 
     background-position: center;
     background-repeat: no-repeat;
@@ -34,11 +34,11 @@
 }
 
 .welcomeMessage {
-    color: white;
+    color: #FBFCFF;
 }
 
 .name {
-    color: rgb(141, 17, 172);
+    color: #D3A2D9;
 }
 
 body, html {
@@ -64,9 +64,9 @@ body, html {
 }
 
 #portfolio {
-    background-color:#343A40;
+    background-color: #274156;
     position: relative;
-    color: white;
+    color: #FBFCFF;
     margin: 100px;
 }
 
@@ -97,4 +97,17 @@ body, html {
     width: auto;
     height: 1000px;
     max-height: 1000px;
+}
+
+.bg-custom {
+    background-color: #274156
+    ;
+}
+
+i {
+    color: #274156
+}
+
+.skillTitle {
+    color: #1c6e8c;
 }
