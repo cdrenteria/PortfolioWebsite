@@ -75,7 +75,8 @@ body, html {
     position: relative;
     color: #FBFCFF;
     margin: 100px;
-    padding: 25px;
+
+    box-sizing: border-box;
 }
 #portfolio:before {
     content:"";
@@ -87,8 +88,12 @@ body, html {
     z-index: -1;
     overflow-x: hidden;
     overflow-y: hidden;
+    padding: 25px;
 }
 
+.portfolioTitle {
+    padding: 50px;
+}
 .projects {
     padding: 10px;
 }
@@ -109,12 +114,13 @@ body, html {
 }
 
 #contactForm {
-    margin: 100px;
+    margin-top: 100px;
+    margin-left:100px;
 }
 
 .carousel-item img {
     width: auto;
-    max-height: 1000px;
+    max-height: 600px;
 }
 
 .bg-custom {
@@ -134,6 +140,7 @@ i {
 #contactForm {
     background-color:  #274156;
     color: #FBFCFF;
+
 }
 
 #contactForm:before {
@@ -164,8 +171,5 @@ i {
 
 .contactWrapper {
     display: flex;
-}
 
-.contactInfo {
-    padding-top: 25px;
 }
