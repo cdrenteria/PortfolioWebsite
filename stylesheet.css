@@ -47,6 +47,7 @@
 body, html {
     height: 100%;
     margin: 0;
+    overflow-x: hidden;
   }
   
 .sectionTitle {
@@ -70,30 +71,16 @@ body, html {
 }
 
 #portfolio {
-    height: 100%;
+    width: 100vw;
     background-color: #274156;
-    position: relative;
     color: #FBFCFF;
-    margin: 100px;
-
-    box-sizing: border-box;
-}
-#portfolio:before {
-    content:"";
-    background-color:#274156;
-    position: absolute;
-    height: 100%;
-    width: 184.1vw;
-    left: -100vw;
-    z-index: -1;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    padding: 25px;
+    text-align: center;
 }
 
 .portfolioTitle {
     padding: 50px;
 }
+
 .projects {
     padding: 10px;
 }
@@ -113,14 +100,22 @@ body, html {
     display: block;
 }
 
-#contactForm {
-    margin-top: 100px;
-    margin-left:100px;
+
+.carousel-item  {
+    max-width: 50vw;
+    
 }
 
-.carousel-item img {
-    width: auto;
-    max-height: 600px;
+.carousel-inner {
+    padding: 10% 25%;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23274156' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23274156' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
 }
 
 .bg-custom {
@@ -140,19 +135,14 @@ i {
 #contactForm {
     background-color:  #274156;
     color: #FBFCFF;
-
+    display: flex;
+    padding-left: 20%;
+    padding-bottom: 10%;
 }
 
-#contactForm:before {
-    content:"";
-    background-color:#274156;
-    position: absolute;
-    height: 100%;
-    width: 198.7vw;
-    left: -100vw;
-    z-index: -1;
-    overflow-x: hidden;
-    overflow-y: hidden;
+.contactInfo {
+    padding-top: 10%;
+    padding-right: 10%;
 }
 
 .formSubmit {
@@ -169,7 +159,6 @@ i {
     color: #FBFCFF !important;
 }
 
-.contactWrapper {
-    display: flex;
-
+.form {
+   text-align: center; 
 }
