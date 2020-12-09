@@ -41,7 +41,7 @@
 }
 
 .name {
-    color: #817247;
+    color: #78ABD0;
 }
 
 body, html {
@@ -90,7 +90,7 @@ body, html {
 .filterDiv {
     border-radius: 15 px 50 px;
     width: 250px;
-    height: 400px;
+    height: 100%;
     text-align: center;
     margin: 10px;
     display: inline-block; /* Hidden by default */
@@ -102,6 +102,9 @@ body, html {
     display: block;
 }
 
+.list-group-item {
+    color: black !important;
+}
 
 .carousel-item  {
     max-width: 100vw;

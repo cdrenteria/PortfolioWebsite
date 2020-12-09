@@ -42,7 +42,6 @@
     $body = ("$firstname $lastname from $company is interested in speaking with you. Email: $email.");
     mail($to, $subject, $body);
 
-    echo("thank you for submitting this form.");
-
+    
 ?>
 
