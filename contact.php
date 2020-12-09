@@ -8,6 +8,7 @@
         } else {
         $name = testInput($_POST["firstName"]);
         }
+    }
 
         if ($_SERVER["REQUEST_METHOD" == "POST"]) {
         if ($_POST["lastName"]) {
@@ -36,10 +37,12 @@
     
     alert("Thank you, an email has been sent confirming your submission.");
 
-    $to = ($email, "chandler.renteria@gmail.com");
+    $to = ("chandler.renteria@gmail.com");
     $subject = ("New Employment Submission!");
-    $body = ("$firstname $lastname from $company is interested in speaking with you. Email: $email.")
-    mail($to, $subject, $body)
+    $body = ("$firstname $lastname from $company is interested in speaking with you. Email: $email.");
+    mail($to, $subject, $body);
+
+    echo("thank you for submitting this form.");
 
 ?>
 
