@@ -19,9 +19,16 @@
         3.2. General Padding / 
     6. Footer / #footer
 -------------------------------------------------------------------*/
+/* Nav Bar */
 .nav-link {
     font-size: 20px;
 }
+
+.fa-laptop-code {
+    color: #FBFCFF !important;
+}
+
+/* Cover Image & Welcome Text */
 .bg {
     background-image: url("Images/images/index_bg_comp.jpg");
     height: 100%; 
@@ -50,6 +57,7 @@ body, html {
     overflow-x: hidden;
   }
   
+/* About Section*/
 .sectionTitle {
     color: #274156;
     text-align: center;
@@ -71,7 +79,7 @@ body, html {
     margin: 100px;
     text-align: center;
 }
-
+/* Portfoliio Section */
 #portfolio {
     width: 100vw;
     background-color: #274156;
@@ -110,7 +118,7 @@ body, html {
     max-width: 100vw;
     
 }
-
+/* Gallery */
 .carousel-inner {
     padding: 10% 25%;
 }
@@ -123,25 +131,7 @@ body, html {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23274156' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
 }
 
-.bg-custom {
-    background-color: #274156;
-    outline: none;
-}
-
-
-i {
-    color: #274156
-}
-
-.skillTitle {
-    color: #1c6e8c;
-}
-
-.skillCard {
-    padding: 1em;
-    width: 20em;
-}
-
+/* Contact Form */
 .contactForm{
     width: 100vw;
     background-color: #274156;
@@ -153,41 +143,26 @@ i {
     margin: 1em;
     font-size: 1em;
 }
+/* Skill Card Template */
 
-/*
-.contactWrapper {
+.skillTitle {
+    color: #1c6e8c;
+}
+
+.skillCard {
+    padding: 1em;
+    width: 20em;
+}
+
+/* General & Custom Classes */
+.bg-custom {
     background-color: #274156;
-    width: 100vw;
-    
-}
-
-#contactForm {
-    background-color:  #274156;
-    color: #FBFCFF;
-    width: 100vw;
-}
-
-.form {
-    padding: 5em;
-
-}
-
-.contactInfo {
-    padding: 5em;
-    margin: 1em;
-}
-.formSubmit {
-    background-color: #1C6E8C;
-    border: none !important;
-}
-*/
-.bg-custom-code {
-    background-color: #1C6E8C;
     outline: none !important;
 }
 
-.fa-laptop-code {
-    color: #FBFCFF !important;
+i {
+    color: #274156
 }
+
 
 
