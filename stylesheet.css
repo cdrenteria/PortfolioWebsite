@@ -96,18 +96,19 @@ body, html {
 }
 
 .filterDiv {
-    border-radius: 15 px 50 px;
     width: 250px;
     height: 100%;
     text-align: center;
     margin: 10px;
     display: inline-block; /* Hidden by default */
-  }
+}
 
-.card_image_top {
-    height: 100px;
-    width: 100px;
-    display: block;
+.card-body , .card-img-top {
+    pointer-events: none;
+}
+
+.projects :hover {
+    box-shadow: .5em  0  10px #162430;
 }
 
 .list-group-item {
