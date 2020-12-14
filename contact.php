@@ -3,10 +3,10 @@
     $firstname = $lastname = $email = $company = "";
     $nameErr = $emailErr = $companyErr = "Required Field";
     if ($_SERVER["REQUEST_METHOD" == "POST"]) {
-        if (empty($_POST["firstName"])) {
+        if (empty($_POST["firstname"])) {
         $nameErr = "Name is required";
         } else {
-        $name = testInput($_POST["firstName"]);
+        $firstname = testInput($_POST["firstname"]);
         }
     }
 
